@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df7c9751.css",
+    "main.js": "/static/js/main.8274c3f1.js",
+    "static/media/grass.png": "/static/media/grass.d2ba6b3a499aa018f5e1.png",
+    "static/media/5.jpg": "/static/media/5.1e4c188146c841bb0df5.jpg",
+    "static/media/6.jpg": "/static/media/6.f88dc5ad76b90db59056.jpg",
+    "static/media/1.jpg": "/static/media/1.06c7bfc660464c142590.jpg",
+    "static/media/9.jpg": "/static/media/9.eacc7adb49b1a18ba152.jpg",
+    "static/media/7.jpg": "/static/media/7.17ee0891028670be2af5.jpg",
+    "static/media/temple.jpg": "/static/media/temple.18cc4ca7f88df392072b.jpg",
+    "static/media/4.jpg": "/static/media/4.df5f68518e8ce3dd1321.jpg",
+    "static/media/japanstreet.jpg": "/static/media/japanstreet.42b161e1b13633593fff.jpg",
+    "static/media/3.jpg": "/static/media/3.86f2ea8f3bc618b2b961.jpg",
+    "static/media/drive.jpg": "/static/media/drive.07ac094d036c35c2d0ba.jpg",
+    "static/media/2.jpg": "/static/media/2.eb4dafff1afce02289fb.jpg",
+    "static/media/8.jpg": "/static/media/8.cf4df9bf43a25963f005.jpg",
+    "static/media/logo.png": "/static/media/logo.0033401055fee15ade5c.png",
+    "static/media/sigma.jpg": "/static/media/sigma.f875546d456e01c93ac9.jpg",
+    "static/media/gigachad.jpg": "/static/media/gigachad.bbcd013265951ece6825.jpg",
+    "index.html": "/index.html",
+    "static/media/star.svg": "/static/media/star.b6be1c5325ebe3dcd569.svg",
+    "main.df7c9751.css.map": "/static/css/main.df7c9751.css.map",
+    "main.8274c3f1.js.map": "/static/js/main.8274c3f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df7c9751.css",
+    "static/js/main.8274c3f1.js"
+  ]
+}
