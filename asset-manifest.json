@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/japan-web/static/css/main.8fc882e8.css",
-    "main.js": "/japan-web/static/js/main.d9ebe9ca.js",
+    "main.css": "/japan-web/static/css/main.2e8bc7c2.css",
+    "main.js": "/japan-web/static/js/main.7cc2559e.js",
     "static/media/grass.png": "/japan-web/static/media/grass.d2ba6b3a499aa018f5e1.png",
     "static/media/5.jpg": "/japan-web/static/media/5.1e4c188146c841bb0df5.jpg",
     "static/media/6.jpg": "/japan-web/static/media/6.f88dc5ad76b90db59056.jpg",
@@ -20,11 +20,11 @@
     "static/media/gigachad.jpg": "/japan-web/static/media/gigachad.bbcd013265951ece6825.jpg",
     "index.html": "/japan-web/index.html",
     "static/media/star.svg": "/japan-web/static/media/star.b6be1c5325ebe3dcd569.svg",
-    "main.8fc882e8.css.map": "/japan-web/static/css/main.8fc882e8.css.map",
-    "main.d9ebe9ca.js.map": "/japan-web/static/js/main.d9ebe9ca.js.map"
+    "main.2e8bc7c2.css.map": "/japan-web/static/css/main.2e8bc7c2.css.map",
+    "main.7cc2559e.js.map": "/japan-web/static/js/main.7cc2559e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fc882e8.css",
-    "static/js/main.d9ebe9ca.js"
+    "static/css/main.2e8bc7c2.css",
+    "static/js/main.7cc2559e.js"
   ]
 }
