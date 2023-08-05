@@ -14,12 +14,12 @@ import CurrentBlogConstructor from "../atoms/CurrentBlogConstructor";
 import { ModalContext } from "../Context/ModalContext";
 import ModalWindow from "../molecules/ModalWindow";
 
-function Routing({ menuState, toggler }: IHeader): JSX.Element {
+function Routing({ menuState, toggler, windowToggle }: IHeader): JSX.Element {
   const { modal, toggle } = useContext(ModalContext);
 
   return (
     <HashRouter>
-      <div className="relative">
+      <div className="relative " onClick={windowToggle}>
         {modal && <ModalWindow toggler={toggle} />}
         <Header menuState={menuState} toggler={toggler} />
         <Routes>

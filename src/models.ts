@@ -21,6 +21,7 @@ export interface IFutureTrips {
 export interface IHeader {
   menuState: boolean;
   toggler: (e: any) => void;
+  windowToggle?: () => void;
 }
 
 export interface IBlog {

@@ -13,7 +13,7 @@ function Header({ menuState, toggler }: IHeader): JSX.Element {
       </a>
       <WideScreenMenu />
       <button className={styles.burger} onClick={toggler}></button>
-      {menuState && <BurgerNav />}
+      {menuState && <BurgerNav toggler={toggler} />}
     </header>
   );
 }

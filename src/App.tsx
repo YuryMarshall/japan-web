@@ -12,10 +12,14 @@ function App(): JSX.Element {
       setMenu(false);
     }
   };
-
+  const windowToggle = (): void => {
+    if (menu) {
+      setMenu(false);
+    }
+  };
   return (
     <ModalState>
-      <Routing menuState={menu} toggler={menuToggle} />
+      <Routing menuState={menu} toggler={menuToggle} windowToggle={windowToggle} />
     </ModalState>
   );
 }
