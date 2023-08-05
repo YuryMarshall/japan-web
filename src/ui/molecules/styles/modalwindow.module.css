@@ -1,0 +1,45 @@
+.modal__window {
+  @apply h-full w-full bg-black bg-opacity-50 absolute top-0 left-0 z-30 flex justify-center items-center px-2;
+}
+.modal__window__container {
+  @apply h-full w-full relative;
+}
+.modal__window__sticky__container {
+  @apply w-full  sticky top-10 flex justify-center;
+}
+.modal__window__form {
+  @apply w-96 bg-projectlightgray  pb-5 p-2 rounded-xl pt-0;
+}
+.close__container {
+  @apply h-10 w-full flex justify-end  lg:h-12;
+}
+.close__button {
+  @apply font-bold text-projectgray text-4xl active:scale-95 hover:scale-110;
+}
+.inputs__container {
+  @apply w-full flex flex-col items-center font-OSans font-bold text-xl;
+}
+.month__input {
+  @apply bg-projectgray text-white w-1/3 rounded-xl mb-2 px-2 py-2;
+}
+.people__count__container {
+  @apply flex w-fit mb-2;
+}
+.people__count__input {
+  @apply bg-projectgray text-white text-xl rounded-3xl px-1 text-center;
+}
+.email__input {
+  @apply bg-projectgray text-white text-xl rounded-3xl px-1 text-center mb-2;
+}
+.total__price__container {
+  @apply mb-2 h-24 w-full lg:flex lg:flex-col lg:items-center;
+}
+.total__price {
+  @apply mb-2 text-projectred text-2xl;
+}
+.complete__container {
+  @apply text-4xl font-Philosopher font-bold text-center h-full flex flex-col items-center justify-center mb-10;
+}
+.complete__title {
+  @apply text-lg text-projectgray mb-20;
+}

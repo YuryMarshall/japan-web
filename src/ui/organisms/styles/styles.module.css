@@ -1,0 +1,141 @@
+/*----------------------------BLOG SECTION--------------------------------*/
+.blog__section {
+  @apply w-full px-5 mb-5 flex flex-col;
+}
+.blog__title {
+  @apply font-Philosopher w-min font-bold text-4xl relative after:content-[''] after:w-1/2 after:h-1 after:bg-projectred after:absolute after:left-0 after:-bottom-1 mb-5;
+}
+.blog__subtitle {
+  @apply font-Philosopher font-bold text-2xl mb-5;
+}
+.more__button__container {
+  @apply flex justify-center;
+}
+
+/*----------------------------CONTACTS SECTION--------------------------------*/
+.contacts__section {
+  @apply flex-col px-5 pt-10 font-OSans text-lg lg:px-52;
+}
+.contacts__about__title {
+  @apply font-Philosopher text-4xl font-bold mb-5;
+}
+.contacts__location__title {
+  @apply font-Philosopher text-4xl font-bold mb-5;
+}
+.conacts__location__container {
+  @apply md:flex md:justify-between;
+}
+.map__container {
+  @apply w-full h-96  mb-20 relative after:content-[''] after:w-full after:h-10 after:absolute after:bg-white after:-bottom-5 after:blur-lg before:content-[''] before:w-full before:h-10 before:absolute before:bg-white before:-top-5 before:blur-lg md:w-96 lg:w-1/2;
+}
+.contacts__title {
+  @apply font-Philosopher text-4xl font-bold mb-5;
+}
+
+/*----------------------------COOPERATION--------------------------------*/
+.contacts__container {
+  @apply md:flex md:flex-wrap w-full lg:items-center lg:justify-center lg:h-96;
+}
+.loading {
+  @apply font-bold text-projectred flex justify-center items-center text-xl lg:h-96;
+}
+.cooperation__section {
+  @apply w-full  flex flex-col px-5;
+}
+.cooperation__title {
+  @apply font-Philosopher text-4xl font-bold mb-5;
+}
+.cooperation__subtitle {
+  @apply font-OSans font-bold mb-5;
+}
+
+/*----------------------------ENTER SECTION--------------------------------*/
+.enter__section {
+  @apply md:flex md:flex-col md:items-center;
+}
+
+/*----------------------------FOOTER--------------------------------*/
+.footer {
+  @apply w-full h-48  flex justify-between items-center px-5;
+}
+.footer__container {
+  @apply w-full h-full  border-t-2 border-projectgray border-solid flex justify-between lg:text-xl;
+}
+.footer__contacts__container {
+  @apply h-full w-1/3 font-OSans;
+}
+.footer__contacts__title {
+  @apply font-Philosopher font-bold text-2xl mb-2 lg:text-3xl;
+}
+.footer__tel__link {
+  @apply underline lg:text-lg text-xs;
+}
+.footer__about__container {
+  @apply h-full w-1/3 font-OSans flex flex-col items-end lg:mr-2;
+}
+.about__title {
+  @apply font-Philosopher font-bold text-2xl mb-2 w-fit lg:text-3xl;
+}
+.about__list {
+  @apply underline font-bold flex flex-col items-end;
+}
+.about__list__item {
+  @apply mb-2 w-fit last:mb-0;
+}
+
+/*----------------------------HEADER--------------------------------*/
+.header {
+  @apply w-full h-32  flex justify-between items-center px-5 relative lg:h-40;
+}
+.burger {
+  @apply h-12 w-12 bg-burger bg-no-repeat bg-contain  hover:scale-110 active:scale-90 md:hidden;
+}
+.header__logo {
+  @apply h-32 hover:scale-110 active:scale-90 xl:h-40;
+}
+
+/*----------------------------REVIEWS SECTION--------------------------------*/
+.reviews__section {
+  @apply w-full flex flex-col px-5;
+}
+.reviews__title {
+  @apply font-Philosopher text-4xl font-bold mb-5;
+}
+.reviews__container {
+  @apply w-full sm:w-4/5 lg:w-full lg:flex lg:flex-wrap lg:justify-center;
+}
+.review {
+  @apply mb-5 flex items-start border-2 border-projectred rounded-2xl p-1 lg:w-1/4 lg:mr-5;
+}
+.review__image {
+  @apply h-32 rounded-full mr-2;
+}
+
+/*----------------------------SCHEDULE SECTION--------------------------------*/
+.schedule {
+  @apply font-Philosopher px-5 flex flex-col  pb-10;
+}
+.schedule__title {
+  @apply font-bold text-4xl relative w-fit after:content-[''] after:w-1/2 after:h-1 after:bg-projectred after:absolute after:left-0 after:-bottom-1 mb-5;
+}
+.schedules__container {
+  @apply flex flex-col items-center lg:flex-row lg:justify-center;
+}
+.schedule__month {
+  @apply w-full border-4 border-projectpowder  rounded-2xl mb-5 py-2 sm:w-3/5 lg:w-2/6 lg:mr-10;
+}
+.schedule__month__tittle {
+  @apply font-bold text-2xl border-b-2 border-projectpowder px-2 text-projectred mb-2;
+}
+.days__container {
+  @apply flex justify-center mb-5 text-xl font-bold font-OSans;
+}
+.city__container {
+  @apply flex justify-center items-center text-lg font-bold font-OSans mb-5;
+}
+.day__number {
+  @apply mr-10 text-4xl text-projectred;
+}
+.schedule__info {
+  @apply px-2 font-OSans text-projectgray border-t-2 border-projectpowder;
+}

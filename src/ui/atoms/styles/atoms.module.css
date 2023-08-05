@@ -1,0 +1,160 @@
+/*------------------BLOG CONTAINER---------------------------*/
+
+.blog__container {
+  @apply w-full flex flex-wrap;
+}
+.blog__container__item {
+  @apply w-1/2 h-80 mb-10 px-1 flex flex-col items-stretch hover:scale-105 md:h-auto lg:w-1/4;
+}
+.blog__container__item__title {
+  @apply font-Philosopher  font-bold text-xl h-20;
+}
+.blog__container__item__text {
+  @apply text-sm mb-2 h-2/6 flex;
+}
+.blog__container__item__author__image {
+  @apply w-12 rounded-full mr-2;
+}
+
+/*------------------BURGER NAV---------------------------*/
+.navigation__container {
+  @apply bg-projectgray   w-3/6 absolute -bottom-44 right-0 z-10 font-Roboto flex flex-col;
+}
+.navigation__link {
+  @apply py-3 px-2 border-b-2 border-white text-white last:border-b-0;
+}
+
+/*------------------CONTACT---------------------------*/
+.contact__container {
+  @apply flex items-center mb-5  md:w-1/3 md:mr-5 lg:w-1/4;
+}
+.contact__image {
+  @apply w-7 h-7  mr-5;
+}
+
+/*------------------COOPERATION CONTACTS---------------------------*/
+.cooperation__contacts__container {
+  @apply w-full mb-5 md:w-1/2 lg:w-1/4;
+}
+
+.cooperation__contacts__title {
+  @apply font-Philosopher font-bold text-projectpowder underline mb-5 text-xl;
+}
+.cooperation__contacts__item__container {
+  @apply w-full h-20 mb-2 flex font-OSans font-bold;
+}
+.cooperation__contacts__item__image {
+  @apply h-full rounded-full mr-5;
+}
+
+/*------------------CURRENT BLOG CONSTRUCTOR---------------------------*/
+.blog__section {
+  @apply w-full flex flex-col items-center;
+}
+.blog__section__image__container {
+  @apply w-full lg:h-[500px] lg:overflow-hidden lg:relative mb-5;
+}
+.blog__section__image {
+  @apply w-full  lg:absolute -top-1/2;
+}
+.blog__section__title {
+  @apply text-2xl font-Philosopher font-bold mb-2;
+}
+.blog__section__author {
+  @apply font-OSans mb-10;
+}
+.blog__section__text {
+  @apply px-7 font-OSans text-lg relative after:content-[''] after:absolute after:w-1/2 after:h-0.5 after:bg-projectred after:left-5 after:-top-5 mb-10 w-full;
+}
+.blog__section__author__container {
+  @apply w-full text-lg px-5 font-OSans font-bold text-projectgray mb-5;
+}
+.blog__section__author__image__container {
+  @apply w-full h-36 text-base flex items-center;
+}
+.blog__section__author__image {
+  @apply h-4/6 rounded-full mr-2;
+}
+
+/*------------------MODAL WINDOW TRIP DURATION---------------------------*/
+.trip__duration__container {
+  @apply h-20 w-full  flex text-3xl justify-center items-center;
+}
+.trip__duration__text {
+  @apply mr-3;
+}
+.trip__duration__color {
+  @apply text-projectred;
+}
+
+/*------------------SALE FORM---------------------------*/
+.sale__container {
+  @apply flex flex-col justify-center items-center font-OSans font-bold md:text-lg lg:w-1/2;
+}
+.sale__inputs__container {
+  @apply flex justify-center mb-2 lg:w-full lg:text-xl lg:mb-5;
+}
+.sale__input {
+  @apply w-2/6 px-2 py-1 rounded-xl mr-5 bg-projectpowder placeholder:text-projectgray md:w-1/2 lg:py-3;
+}
+.sale__check__container {
+  @apply mb-2 flex text-white font-normal md:mb-5 lg:mb-10;
+}
+.sale__check__text {
+  @apply text-sm md:text-base lg:text-lg;
+}
+
+/*------------------SCORE STARS---------------------------*/
+.score__container {
+  @apply flex items-center font-OSans text-projectgray font-bold pr-5 mb-2;
+}
+.score__star {
+  @apply w-8 h-8 bg-star bg-no-repeat bg-center bg-contain last:mr-auto;
+}
+
+/*-----------------SITE BUTTON-----------------------------*/
+.site__button {
+  @apply bg-projectred rounded-xl text-lg px-2 py-1 text-white font-OSans hover:scale-110 active:scale-95 font-bold md:text-xl lg:px-4 lg:py-2;
+}
+
+/*-----------------TRIP SCHEDULE CONSTRUCTOR----------------------------*/
+.schedule__container {
+  @apply w-2/6 flex flex-col items-center;
+}
+.schedule__container__title {
+  @apply font-Philosopher font-bold text-xl text-center mb-10 lg:text-3xl;
+}
+.schedule__day__container {
+  @apply text-5xl font-bold mb-10  flex items-center lg:text-6xl;
+}
+.schedule__day__date {
+  @apply mr-2 lg:mr-10;
+}
+.schedule__day__month {
+  @apply text-base md:text-lg lg:text-2xl;
+}
+
+/*-----------------USERS CONSTRUCTOR----------------------------*/
+.users__container {
+  @apply w-full h-20 mb-2 flex md:h-24;
+}
+.users__container__user {
+  @apply flex mr-5 items-center md:text-lg;
+}
+.users__container__user__image {
+  @apply h-5/6 rounded-full mr-5;
+}
+.users__container__user__info__container {
+  @apply flex flex-col  h-min;
+}
+.users__container__user__info__name {
+  @apply font-bold lg:text-xl;
+}
+
+/*-----------------WIDE SCREEN MENU ----------------------------*/
+.wide__menu__container {
+  @apply font-Philosopher text-xl font-bold  hidden md:flex lg:text-2xl;
+}
+.wide__menu__item {
+  @apply mr-5 hover:scale-105 active:scale-95 last:mr-0;
+}
