@@ -19,7 +19,7 @@ function Routing({ menuState, toggler, windowToggle }: IHeader): JSX.Element {
 
   return (
     <HashRouter>
-      <div className="relative " onClick={windowToggle}>
+      <div className="relative overflow-hidden " onClick={windowToggle}>
         {modal && <ModalWindow toggler={toggle} />}
         <Header menuState={menuState} toggler={toggler} />
         <Routes>

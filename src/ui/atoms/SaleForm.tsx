@@ -34,7 +34,7 @@ function SaleForm({ completeState, completeHandler }: IComplete): JSX.Element {
   };
   const ErrorMessage = (): JSX.Element | undefined => {
     if (formError === "none") {
-      return undefined;
+      return <div className="h-[30px] w-[192px]"></div>;
     } else if (formError === "name") {
       return <p className="mb-2  lg:mb-10 text-red-500">Введите имя</p>;
     } else if (formError === "phone") {

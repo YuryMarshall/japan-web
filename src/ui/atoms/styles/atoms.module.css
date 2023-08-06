@@ -99,7 +99,7 @@
 }
 
 .sale__check__container {
-  @apply flex text-white font-normal md:mb-5  items-center;
+  @apply flex text-white font-normal md:mb-5 mb-2 items-center;
 }
 .sale__check__text {
   @apply text-sm md:text-base lg:text-lg;

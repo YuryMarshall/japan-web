@@ -39,7 +39,7 @@
 
 /*-----------------------------------------SALE CONTAINER-------------------------------------*/
 .sale__container {
-  @apply w-full h-[256px] bg-salebg bg-cover bg-center flex flex-col  items-center py-5 mb-2 md:h-[480px] md:justify-center;
+  @apply w-full h-[300px] bg-salebg bg-cover bg-center flex flex-col  items-center py-5 mb-2 md:h-[480px] md:justify-center;
 }
 .sale__container__title {
   @apply text-xl text-white font-Philosopher font-bold w-4/6 text-center mb-5 md:text-3xl lg:text-4xl;
