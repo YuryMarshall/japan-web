@@ -63,9 +63,12 @@ export default function ModalWindow({ toggler }: IWindowProps): JSX.Element {
                   <option>июль</option>
                 </select>
                 <div className={styles.people__count__container}>
-                  <p className="mr-4">Количество человек:</p>
+                  <div>
+                    <p className="mr-4">Количество человек:</p>
+                    <p className="text-sm text-projectgray">(Не больше 5-ти)</p>
+                  </div>
                   <input
-                    placeholder="1-10"
+                    placeholder="1-5"
                     required={true}
                     value={count}
                     onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -77,11 +80,12 @@ export default function ModalWindow({ toggler }: IWindowProps): JSX.Element {
                     className={styles.people__count__input}
                   />
                 </div>
-                <div className="flex w-fit mb-2">
+                <div className="flex w-fit mb-2 items-center">
                   <p className="mr-4">Оформить визу Японии:</p>
                   <input
                     type="checkbox"
                     checked={visa}
+                    className="mt-1.5"
                     onChange={() => {
                       setVisa(!visa);
                     }}

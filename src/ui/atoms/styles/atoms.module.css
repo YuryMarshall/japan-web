@@ -97,8 +97,9 @@
 .sale__input {
   @apply w-2/6 px-2 py-1 rounded-xl mr-5 bg-projectpowder placeholder:text-projectgray md:w-1/2 lg:py-3;
 }
+
 .sale__check__container {
-  @apply mb-2 flex text-white font-normal md:mb-5 lg:mb-10;
+  @apply flex text-white font-normal md:mb-5  items-center;
 }
 .sale__check__text {
   @apply text-sm md:text-base lg:text-lg;

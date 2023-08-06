@@ -12,8 +12,16 @@ function SaleForm({ completeState, completeHandler }: IComplete): JSX.Element {
     e.preventDefault();
     if (name !== "" && phone !== "") {
       completeHandler(true);
+      setError("none");
+    } else if (name === "" && phone === "") {
+      setError("name phone");
+    } else if (name === "") {
+      setError("name");
+    } else if (phone === "") {
+      setError("phone");
     }
   };
+  const [formError, setError] = useState("none");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
 
@@ -24,7 +32,15 @@ function SaleForm({ completeState, completeHandler }: IComplete): JSX.Element {
     const formattedPhoneNumber: string = formatPhoneNumber(e.target.value);
     setPhone(formattedPhoneNumber);
   };
-
+  const ErrorMessage = (): JSX.Element | undefined => {
+    if (formError === "none") {
+      return undefined;
+    } else if (formError === "name") {
+      return <p className="mb-2  lg:mb-10 text-red-500">Введите имя</p>;
+    } else if (formError === "phone") {
+      return <p className="mb-2 lg:mb-10 text-red-500">Введите телефон</p>;
+    } else return <p className="mb-2 lg:mb-10 text-red-500">Введите имя и телефон</p>;
+  };
   const formatPhoneNumber = (value: string): string => {
     const phoneNumber = value.replace(/[^\d]/g, "");
     const phoneNumberLength = phoneNumber.length;
@@ -63,7 +79,7 @@ function SaleForm({ completeState, completeHandler }: IComplete): JSX.Element {
         <input type="checkbox" className="mr-4" required={true} />
         <p className={styles.sale__check__text}>Даю согласие на обработку данных</p>
       </div>
-
+      <ErrorMessage />
       <SiteButton ButtonType={"submit"} text={"Оставить заявку"} />
     </form>
   );

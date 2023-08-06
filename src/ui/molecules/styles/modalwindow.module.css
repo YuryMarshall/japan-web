@@ -23,10 +23,10 @@
   @apply bg-projectgray text-white w-1/3 rounded-xl mb-2 px-2 py-2;
 }
 .people__count__container {
-  @apply flex w-fit mb-2;
+  @apply flex w-fit mb-2 items-center;
 }
 .people__count__input {
-  @apply bg-projectgray text-white text-xl rounded-3xl px-1 text-center;
+  @apply bg-projectgray text-white text-xl rounded-3xl px-1 text-center h-min;
 }
 .email__input {
   @apply bg-projectgray text-white text-xl rounded-3xl px-1 text-center mb-2;
